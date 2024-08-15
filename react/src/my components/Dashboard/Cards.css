@@ -1,0 +1,78 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 10px;
+    position: relative;
+}
+.add-to-cart{
+    display: none;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 50%;
+    padding: 7px 10px;
+    top: 90%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}
+.image:hover .add-to-cart {
+    display: block;
+    opacity: 1;
+    transition: 0.3s;
+   border-radius: 50%;
+}
+.title{
+    margin-top: 5px;
+    text-align: start;
+    font-size: 16px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.image:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.edit-cart{
+    display: none;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 50%;
+    padding: 7px 10px;
+    top: 45%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+    color: white;
+}
+.image:hover .edit-cart {
+    display: block;
+    opacity: 1;
+    transition: 0.3s;
+   border-radius: 50%;
+   color: white;
+}
+.image:hover .delete-cart {
+    display: block;
+    opacity: 1;
+    transition: 0.3s;
+   border-radius: 50%;
+}
+.delete-cart{
+    display: none;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 50%;
+    padding: 7px 10px;
+    top: 68%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+}

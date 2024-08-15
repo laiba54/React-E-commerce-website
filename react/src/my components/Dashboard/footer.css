@@ -1,0 +1,107 @@
+.footer-section{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.section1, .section2, .section3, .section4{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 h3{
+    font-size: 1.5rem;
+}
+.section1 p{
+    font-size: 14px;
+    width: 300px;
+    text-align: justify;
+}
+
+.section2{
+    margin-left: 110px;
+}
+
+.section2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.section2 a:hover{
+    transition: 0.3s;
+    color: #0d6efd;
+}
+
+.section3{
+    margin-left: 130px;
+}
+
+.section3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.section3 a:hover{
+    transition: 0.3s;
+    color: #0d6efd;
+}
+
+.section4{
+    margin-left: 130px;
+}
+
+.section4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.section4 a:hover{
+    transition: 0.3s;
+    color: #0d6efd;
+}
+
+.section2 h3{
+    font-size: 1.3rem;
+}
+.section3 h3{
+    font-size: 1.3rem;
+}
+.section4 h3{
+    font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+.footer-section{
+    display: flex;
+    flex-direction: column;
+}
+.section1{
+    padding: 0px 20px;
+}
+.section2, .section3, .section4{
+    margin-left: 20px;
+}
+.section1 p{
+    font-size: 14px;
+    width: 250px;
+    text-align: justify;
+}
+}
+@media (width: 1024px) {
+.footer-section{
+    display: flex;
+}
+.section1{
+    padding: 0px 20px;
+}
+.section2, .section3, .section4{
+    margin-left: 60px;
+}
+.section1 p{
+    font-size: 14px;
+    width: 250px;
+    text-align: justify;
+}
+}

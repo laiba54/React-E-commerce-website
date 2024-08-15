@@ -1,0 +1,25 @@
+.table-container {
+    overflow-x: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .table-container {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch; 
+    }
+  
+    table {
+      min-width: 600px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .text-center button {
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+    
+    .text-center button:last-child {
+      margin-bottom: 0;
+    }
+  }
